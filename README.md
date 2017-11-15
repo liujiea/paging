@@ -12,7 +12,7 @@ var data = []
 var ulPaging = Paging(data, getId('ul'), getId('div1'))
 ```
 ### 代码解析：
-    + document.getElementById.bind(document): 使用.bind()方法,将getId方法放到this由window改成document; 如有不懂,可加群学习:xxxxxxxxx;
-    + data: 初始数据;
-    + getId('ul'): 使用浏览器原生document.getElementById()方法,获取页面上id = 'ul'的元素;
-    + getId('div1'): 使用浏览器原生document.getElementById()方法,获取页面上id = 'div1'的元素;
+    * document.getElementById.bind(document): 使用.bind()方法,将getId方法放到this由window改成document;
+    * data: 初始数据;
+    * getId('ul'): 使用浏览器原生document.getElementById()方法,获取页面上id = 'ul'的元素;
+    * getId('div1'): 使用浏览器原生document.getElementById()方法,获取页面上id = 'div1'的元素;
