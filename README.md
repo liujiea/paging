@@ -5,3 +5,9 @@
 <link rel="stylesheet" href="css/index.css">
 <script src="paging.js"></script>
 ```
+##开始插件##
+```
+var getId = document.getElementById.bind(document)
+var data = []
+var ulPaging = Paging(data, getId('ul'), getId('div1'))
+```
